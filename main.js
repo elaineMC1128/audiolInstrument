@@ -1,0 +1,12 @@
+// find our test button
+const testButton = document.getElementById("test-button");
+// init our synth
+const synth = new Tone.Synth().toDestination();
+
+// do something when this button is clicked
+testButton.addEventListener("click", playNote)
+// function that runs when button is clicked
+function playNote(){
+    // create a note for a duration
+    synth.triggerAttackRelease("c4", "8n");
+}
