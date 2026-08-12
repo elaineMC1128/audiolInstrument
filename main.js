@@ -1,4 +1,5 @@
-// browser loads html > browser loads js > open the dialog > user closes dialog > audio system loads > user clicks sound button
+// browser loads html > browser loads js > open the dialog >
+// user closes dialog > audio system loads > user clicks sound button
 // find our dialog
 const introDialog = document.getElementById("intro-dialog");
 // find the close button
