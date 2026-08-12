@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-/* this is where we're storing our custom variable */
+/*this is where we're storing our custom variables*/
 :root {
     --colour-01: white;
     --colour-02: black;
@@ -13,26 +13,29 @@
     :root {
         --colour-01: black;
         --colour-02: white;
-        --colour-03: lightgray;
-        --colour-04: darkgray;
+        --colour-03: darkgray;
+        --colour-04: lightgray;
     }
 }
 
 body {
-    font-family: "Outfit", sans-serif;
+    font-family: "Work Sans", sans-serif;
     background-color: var(--colour-01);
     color: var(--colour-02);
 }
 
-dialog {
+dialog[open] {
     background-color: var(--colour-01);
     color: var(--colour-02);
     margin: auto;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
+    align-items: center;
     border: var(--border);
 }
 
+button {
+    border: var(--border);
+}
