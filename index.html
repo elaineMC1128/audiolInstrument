@@ -7,25 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Audio Instrument</title>
 
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
     <script src="https://unpkg.com/tone"></script>
     <script src="main.js" defer></script>
-
 </head>
 <body>
-    <dialog id="intro-dialog">
-        <p>Hi I'm going to make some sound</p>
-        <button id="intro-dialog-close">ok</button>
-    </dialog>
-    <header>
-        <h1>Audio Instrument</h1>
-    </header>
-    <main>
-        <button id="test-button">sound check</button>
-    </main>
-
+<dialog id="intro-dialog">
+    <p>Hi I'm going to make some sound</p>
+    <button id="intro-dialog-close">ok</button>
+</dialog>
+<header>
+    <h1>Audio Instrument</h1>
+</header>
+<main>
+    <button id="test-button" data-note="c4">sound check</button>
+    <button id="key-test" data-note="d4">key</button>
+</main>
 
 </body>
 </html>
