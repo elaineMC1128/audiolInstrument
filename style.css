@@ -6,7 +6,7 @@
     --colour-02: black;
     --colour-03: lightgray;
     --colour-04: darkgray;
-    --border: 0.25rem double var(--colour-03);
+    --border: 0.25rem double var(--colour-02);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,4 +46,18 @@ button {
 
 #key-test:active {
     background-color: red;
+}
+
+
+.whiteKey {
+    background-color: var(--colour-03);
+    border: var(--border);
+    border-left: none;
+    border-radius: 0 0 0.25rem 0.25rem;
+    flex: 1;
+    cursor: pointer;
+}
+
+.whiteKey {
+    box-shadow: inset 0.2rem 0.2rem 0.4rem var(--shadow);
 }
